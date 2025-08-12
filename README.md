@@ -68,3 +68,21 @@ It uses statistical analysis, preprocessing pipelines, and multiple classificati
 1. Clone the repository:
 ```bash
 git clone https://github.com/Savin97/Mortgage-Loan-Approval-Prediction.git
+cd Mortgage-Loan-Approval-Prediction
+```
+
+2. (Optional) Create and activate a virtual environment:
+```bash
+python -m venv .venv
+source .venv/bin/activate   # Windows: .venv\Scripts\activate
+```
+
+3. Install dependencies:
+```bash
+pip install -r requirements.txt
+```
+
+4. Run the notebook:
+```bash
+jupyter notebook notebooks/Mortgage Loan Approval Prediction Model.ipynb
+```
